@@ -1,7 +1,10 @@
 {
   "scripts": {
-    "produce": "nodemon -r dotenv/config src/producer_consumer/producer.js",
-    "consume": "nodemon -r dotenv/config src/producer_consumer/consumer.js"
+    "pro": "nodemon -r dotenv/config src/producer_consumer/producer.js",
+    "con": "nodemon -r dotenv/config src/producer_consumer/consumer.js",
+    "pub": "nodemon -r dotenv/config src/publisher_subcriber/publisher.js",
+    "sub1": "nodemon -r dotenv/config src/publisher_subcriber/subcriber_1.js",
+    "sub2": "nodemon -r dotenv/config src/publisher_subcriber/subcriber_2.js"
   },
   "dependencies": {
     "amqplib": "^0.6.0",
