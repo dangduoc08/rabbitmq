@@ -4,7 +4,10 @@
     "con": "nodemon -r dotenv/config src/producer_consumer/consumer.js",
     "pub": "nodemon -r dotenv/config src/publisher_subcriber/publisher.js",
     "sub1": "nodemon -r dotenv/config src/publisher_subcriber/subcriber_1.js",
-    "sub2": "nodemon -r dotenv/config src/publisher_subcriber/subcriber_2.js"
+    "sub2": "nodemon -r dotenv/config src/publisher_subcriber/subcriber_2.js",
+    "emit": "nodemon -r dotenv/config src/routing/emiter.js",
+    "listen1": "nodemon -r dotenv/config src/routing/listener_1.js",
+    "listen2": "nodemon -r dotenv/config src/routing/listener_2.js"
   },
   "dependencies": {
     "amqplib": "^0.6.0",
